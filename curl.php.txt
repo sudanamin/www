@@ -1,0 +1,8 @@
+﻿<?php
+$ url= "http"//hodaislas.com/vb/";
+$ch= curl_init();
+curl_setipt($ch, curlopt_url,$url);
+$result = curl_exec($ch);
+curl_close($ch);
+echo $result;
+?>
